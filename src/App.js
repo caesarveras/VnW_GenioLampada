@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.scss';
-import lampImage from './assets/lampada.png'; // Substitua com o caminho real da imagem
-import genieImage from './assets/genio.png'; // Substitua com o caminho real da imagem
+import lampImage from './assets/lampada.png';
+import genieImage from './assets/genio.png'; 
 
 function App() {
   const [showGenie, setShowGenie] = useState(false);
