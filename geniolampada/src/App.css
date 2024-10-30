@@ -1,0 +1,47 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("./assets/wallpaper.png");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-family: "Sevillana", cursive;
+}
+.app h1 {
+  font-family: "Sevillana", cursive;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.app .image-container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.app .image-container img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+.app .image-container img:hover {
+  transform: scale(1.1);
+}
+.app button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+.app button:hover {
+  background-color: #0056b3;
+}/*# sourceMappingURL=app.css.map */
